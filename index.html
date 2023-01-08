@@ -13,7 +13,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo header__logo"></div> 
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум" /> 
       <!--логотип-->
 
       <div class="header__title">
@@ -39,6 +39,7 @@
 
 
     <main class="content">
+      <!-- Проблемы в обучении - начало-->
       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -51,8 +52,9 @@
            </p>      
         </div>
       </section>
-      <!-- Проблемы в обучении-->
+      <!-- Проблемы в обучении - конец-->
 
+      <!--Таблица "Цифры и факты" - начало -->
       <section class="digits">
         <h2 class="section__title">Цифры и факты</h2>
         <p class="section__subtitle">Про учёбу и мозг</p>
@@ -95,14 +97,16 @@
       </section>
       <!--Таблица "Цифры и факты"-->
 
+      <!-- Метод Фейнмана - начало -->
             <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="#">Подробнее &#8594</a>
         <img class="feynman__img-photo" src="./images/feynman.png" alt="Фейнман, фотография"/>
       </section>
-      <!-- Метод Фейнмана-->
+      <!-- Метод Фейнмана - конец -->
 
+      <!-- Принципы от Джоша Кауфмана - начало -->
       <section class="kaufman">
         <h2 class="section__title section-title_theme_dark">Принципы обучения</h2>
         <p class="section__subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
@@ -151,10 +155,48 @@
         <div class="kaufman-triangle" alt="Картинка - треугольник"></div>
       </section>
     </main>
+    <!-- Принципы от Джоша Кауфмана - конец -->
 
+    <!-- Подвал-начало-->
     <footer class="footer">
+      <div class="footer__columns">
+        <!--Колонка контент-копирайт - начало-->
+        <div class="footer__column footer__column_content_copyright">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="лого Яндекс Практикум"/>
+          <p class="footer__author">&copy; Илья Клементьев</p>
+        </div>
+        <!--Колонка контент-копирайт - конец-->
 
+        <!-- Колонка INFO начало-->
+        <div class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <nav class="footer__column-links">
+            <a class="footer__column-link" href="#">Главная</a>
+            <a class="footer__column-link" href="#">Концепция</a>
+            <a class="footer__column-link" href="#">Наставники</a>
+          </nav>
+        </div>
+        <!--Колонка INFO конец-->
+
+        <!--Колонка соц сети начало-->
+        <div class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <nav class="footer__column-links">
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/youtube-icon.svg" alt="YouTube"/>YouTube
+            </a>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте"/>ВКонтакте
+            </a>
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="ТикТок"/>TikTok
+            </a>
+          </nav>
+        </div>
+        <!-- Колонка соц сети конец-->
+      </div>
     </footer>
+    <!-- Подвал-конец-->
   </div>
 </body>
 </html>
