@@ -6,7 +6,6 @@
   display:flex;
   flex-direction: column;
   align-items:center;
-
 }
 
 .header {
@@ -22,7 +21,7 @@
   position: relative;
   background-color: #f2f2f2;
   overflow: hidden;
- }
+}
 
 .logo {
   padding: 0;
@@ -50,7 +49,7 @@
   z-index: 3;
 }
 
-.header__title_content {
+.header__title-content {
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
@@ -67,13 +66,13 @@
   z-index: 3;
 }
 
-.header__subtitle_content {
+.header__subtitle-content {
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
 }
 
-.header__link_subtitle {
+.header__subtitle-link {
   font-size: 18px;
   text-decoration: none;
   color: #2f80ed;
@@ -96,10 +95,6 @@
   margin: 0;
   width: 765px;
   height: 608px; 
-  background-image:url(../images/two_again.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;
   position: absolute;
   z-index: 2;
   bottom: 0;
@@ -139,7 +134,7 @@ main {
   justify-content: space-between;
   width: 80%;
   min-width: 784px;
-  }
+}
 
 .two-columns__paragraph {
   padding: 0;
@@ -147,11 +142,11 @@ main {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
-  }
+}
 
-  .two-columns__main-text :last-child {
+.two-columns__main-text :last-child {
   margin-bottom:0px;
-  } 
+} 
 
 .two-columns__span-accent {
   font-size: 24px;
@@ -167,7 +162,7 @@ main {
   align-items: center;
 }
 
-.section__title {
+.section-title {
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
@@ -175,9 +170,9 @@ main {
   width: 60%;
   text-align: center;
   margin: 0;
-  }
+}
 
-.section__subtitle {
+.section-subtitle {
   margin: 0;
   font-size: 24px;
   font-weight: normal;
@@ -194,7 +189,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  }
+}
 
 .table__cell {
   width: 250px;
@@ -234,7 +229,7 @@ main {
   text-align: center;
   width: 648px;
   margin: 100px auto 0 auto;
-  }
+}
 
 .feynman__subtitle {
   margin: 70px auto 0 auto;
@@ -251,7 +246,7 @@ main {
   right: 48px;
   top: 50%;
   text-decoration: none;
-  }
+}
 
 .feynman__img-photo {
   width: 867px;
@@ -305,10 +300,6 @@ main {
   margin: 0;
   width: 877px;
   height: 877px; 
-  background-image:url(../images/kaufman-triangle.svg);
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position:center;
   position: absolute;
   z-index: -1;
   top: 0;
@@ -331,7 +322,7 @@ main {
 }
 
 .footer__column {
-  
+
 }
 
 .footer__column_content_copyright {
@@ -347,7 +338,6 @@ main {
   font-weight: normal;
   line-height: 25px;
   font-size: 18px;
-   
 }
 
 .footer__column_content_info {
